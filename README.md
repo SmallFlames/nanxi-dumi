@@ -1,18 +1,11 @@
 # 烟海志
 
-A static site base on [dumi](https://d.umijs.org).
+A static site base on [dumi](https://github.com/umijs/dumi).
 
 ## Development
 
 ```bash
-# install dependencies
-$ npm install
-
-# start dev server
-$ npm start
-
-# build docs
-$ npm run build
+欢迎大家一起加入dumi~
 ```
 
 ## LICENSE
