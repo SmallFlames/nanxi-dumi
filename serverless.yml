@@ -1,0 +1,18 @@
+component: website
+name: website--MSJ2bKFex
+org: '1316572440'
+app: yanhaizhi
+stage: prod
+inputs:
+  region: ap-beijing
+  functionName: ${name}
+  runtime:  Nodejs10.15
+  serviceId: !<tag:yaml.org,2002:js/undefined> ''
+  src:
+    error: index.html
+    exclude:
+      - .env
+    index: index.html
+    src: /root/workspace
+  apigatewayConf: !<tag:yaml.org,2002:js/undefined> ''
+  functionConf: !<tag:yaml.org,2002:js/undefined> ''
